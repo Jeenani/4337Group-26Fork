@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="_4337_Аввакумов" Height="450" Width="800">
     <Grid>
-
+        <TextBlock Text="Аввакумов Роберт, 21 год"
+               FontSize="20"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"/>
     </Grid>
 </Window>

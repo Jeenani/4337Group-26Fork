@@ -9,7 +9,8 @@ namespace Group4337
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-   
+            var w = new _4337_Аввакумов();
+            w.ShowDialog();
 
         }
     }
