@@ -5,11 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Group4337"
         mc:Ignorable="d"
-        Title="_4337_Аввакумов" Height="450" Width="800">
+        Title="_4337_Аввакумов вариант 2" Height="450" Width="800">
     <Grid>
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" Margin="10">
+            <Button Margin="0,0,10,0" Content="Импорт данных" Click="Import_Click" />
+            <Button Margin="0,0,10,0" Content="Экспорт в Excel" Click="Export_Click"/>
+        </StackPanel>
         <TextBlock Text="Аввакумов Роберт, 21 год"
                FontSize="20"
                HorizontalAlignment="Center"
-               VerticalAlignment="Center"/>
+               VerticalAlignment="Center" Grid.Column="0"/>
     </Grid>
 </Window>
