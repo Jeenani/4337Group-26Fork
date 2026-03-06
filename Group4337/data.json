@@ -1,0 +1,5 @@
+[
+  { "serviceName": "Стрижка", "serviceType": "Парикмахерские", "price": 300 },
+  { "serviceName": "Маникюр", "serviceType": "Ногти", "price": 500 },
+  { "serviceName": "Массаж", "serviceType": "SPA", "price": 1200 }
+]
